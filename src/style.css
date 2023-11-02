@@ -306,3 +306,17 @@ header {
 .about img {
   max-width: 477px;
 }
+
+footer {
+  text-align: center;
+  padding: 50px;
+}
+
+footer img {
+  margin: 0 auto;
+}
+
+.socials {
+  max-width: 116px;
+  margin: 56px auto;
+}

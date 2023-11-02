@@ -175,9 +175,16 @@ h3 {
 
 .box {
   background: var(--color-dark-purple);
-  padding: 30px;
+  padding: 7.5rem 6.5rem;
+  width: 730px;
+  height: 431px;
+  color: var(--color-white);
 }
 
+.box p,
+.box button {
+  margin-top: 32px;
+}
 .section {
   display: flex;
   align-items: center;

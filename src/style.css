@@ -174,10 +174,13 @@ h3 {
 }
 
 .box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
   background: var(--color-dark-purple);
-  padding: 7.5rem 6.5rem;
+  padding: 6rem 6.5rem;
   width: 730px;
-  height: 431px;
+  height: 413px;
   color: var(--color-white);
 }
 
@@ -226,6 +229,7 @@ header {
   background-color: var(--color-dark-purple);
   display: flex;
   justify-content: space-between;
+  padding: 6rem 0;
 }
 
 .py-4 {
@@ -238,31 +242,19 @@ header {
   height: 730px;
 }
 
-.intro {
-  max-width: 1100px;
-  height: 730px;
-  padding-top: 150px;
+.intro-section button {
+  margin-top: 37px;
 }
-
 .intro-section h1 {
   color: var(--color-white);
   max-width: 635px;
   margin: 0 auto;
 }
 
-.intro img {
-  width: 767px;
-}
-
 .hero-image {
-  width: 767px;
-  margin: 0 auto;
-}
-
-.container {
-  max-width: 128rem;
   width: 100%;
-  margin: 0 auto;
+  max-width: 767px;
+  margin: 50px auto 0 auto;
 }
 
 .text-center {
@@ -285,6 +277,7 @@ header {
 .item {
   max-width: 354px;
 }
+
 .item-number {
   display: inline-block;
   width: 56px;
@@ -301,6 +294,11 @@ header {
 
 .item p {
   margin-top: 28px;
+}
+
+.about {
+  position: relative;
+  height: 580px;
 }
 
 .about img {

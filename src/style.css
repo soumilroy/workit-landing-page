@@ -160,7 +160,7 @@ h3 {
 }
 
 .max-w-lg {
-  max-width: 110rem;
+  max-width: 111rem;
   width: 100%;
   margin: 0 auto;
 }
@@ -192,6 +192,10 @@ h3 {
   display: flex;
   align-items: center;
   gap: 3rem;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .btn {
@@ -229,7 +233,7 @@ header {
   background-color: var(--color-dark-purple);
   display: flex;
   justify-content: space-between;
-  padding: 6rem 0;
+  padding: 5.8rem 0;
 }
 
 .py-4 {
@@ -239,7 +243,7 @@ header {
 
 .intro-section {
   background-color: var(--color-dark-purple);
-  height: 730px;
+  height: 560px;
 }
 
 .intro-section button {
@@ -270,7 +274,7 @@ header {
 
 .section-2 {
   background-color: var(--color-ghost-white);
-  padding-top: 150px;
+  padding-top: 260px;
   padding-bottom: 150px;
 }
 
@@ -299,6 +303,7 @@ header {
 .about {
   position: relative;
   height: 580px;
+  padding: 110px 0;
 }
 
 .about img {
@@ -311,10 +316,10 @@ footer {
 }
 
 footer img {
-  margin: 0 auto;
+  margin: 50px auto 0 auto;
 }
 
 .socials {
   max-width: 116px;
-  margin: 56px auto;
+  margin: 4px auto;
 }
